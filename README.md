@@ -11,7 +11,7 @@ The extension of Zend_Cache is built depending on [Predis](https://github.com/nr
 As per the documentation of Predis, ony support one IP for Redis and all the nodes will discover each other. so there is no changes other than the above.
 
 ###Please make sure that :
-- you have Predis installed and added to composer.
+- You have Predis installed and added to composer.
 - Redis 3.0 to support cluster.
 
 ###Note:
