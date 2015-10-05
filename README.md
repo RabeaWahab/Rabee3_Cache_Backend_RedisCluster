@@ -7,5 +7,12 @@ Please make sure that :
 - you have Predis installed and added to composer.
 - Redis 3.0 to support cluster.
 
+Usage:
+- add a new tag to your `app/etc/local.xml` file under the cache sections:
+1. `<backend>Rabee3_Cache_Backend_RedisCluster</backend>
+2. `<cluster>true</cluster>`
+
+As per the documentation of Predis, ony support one IP for Redis and all the nodes will discover each other. so there is no changes other than the above.
+
 Note:
 - A set of functionalities is still not supported by the cluster such as *Intersection* and *Union*.
