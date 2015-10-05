@@ -1,4 +1,4 @@
-# Rabee3_Cache_Backend_RedisCluster
+# Magento Cache Backend Redis Cluster
 Redis Cache Backend for Magento with Cluster Support
 
 The extension of Zend_Cache is built depending on [Predis](https://github.com/nrk/predis) as a client library, at the same time it has been created from a working copy of the standard `Credis` supported by Magento.
